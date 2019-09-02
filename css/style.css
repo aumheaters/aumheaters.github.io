@@ -141,12 +141,12 @@ header .top-bar .social li a:hover {
 header .navbar {
   padding-top: 0;
   padding-bottom: 0;
-  background: white !important;
+  background: #e4a40b !important;
 }
 
 @media (max-width: 1199px) {
   header .navbar {
-    background: white !important;
+    background: #e4a40b !important;
     padding-top: .5rem;
     padding-bottom: .5rem;
   }
@@ -500,7 +500,7 @@ header .navbar .cta-btn a:hover {
 
 .cta-link .heading {
   font-size: 50px;
-  color: #392903;
+  color: #fff;
 }
 
 @media (max-width: 991px) {
