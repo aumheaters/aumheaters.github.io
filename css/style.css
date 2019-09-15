@@ -131,6 +131,8 @@ header .top-bar .social li a {
   }
 }
 
+
+
 header .top-bar .social li a:hover {
   background: #5AC8D8;
   color: #fff;
@@ -141,12 +143,12 @@ header .top-bar .social li a:hover {
 header .navbar {
   padding-top: 0;
   padding-bottom: 0;
-  background: white !important;
+  background: #e4a40b !important;
 }
 
 @media (max-width: 1199px) {
   header .navbar {
-    background: white !important;
+    background: #e4a40b !important;
     padding-top: .5rem;
     padding-bottom: .5rem;
   }
@@ -334,6 +336,7 @@ header .navbar .cta-btn a:hover {
 }
 
 .owl-carousel.home-slider .slider-item {
+  background-image: url('../img/slider1.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -500,7 +503,7 @@ header .navbar .cta-btn a:hover {
 
 .cta-link .heading {
   font-size: 50px;
-  color: #392903;
+  color: #fff;
 }
 
 @media (max-width: 991px) {
@@ -927,4 +930,30 @@ header .navbar .cta-btn a:hover {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px;
   }
+}
+
+
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+body { margin: 0; } 
+div#slider2 { overflow: hidden; }
+div#slider2 figure img { width: 20%; float: left; }
+div#slider2 figure { 
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 30s slidy infinite; 
 }
