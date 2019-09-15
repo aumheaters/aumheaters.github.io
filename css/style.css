@@ -216,7 +216,7 @@ header .navbar .cta-btn a:hover {
 }
 
 .cta-overlap {
-  margin-top: -4em;
+  margin-top: 0em;
   position: relative;
   z-index: 100;
 }
